@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>User Inteface</title>
+</head>
+<body>
+
+    <header class="row">
+        <h1>User Inerface</h1>
+    </header>
+
+    <nav class="row">
+        <a href="#">Home</a>
+        <a href="#">News</a>
+        <div id="dropdown" class="dropdown">
+            <a href="#" id="drop-btn">Dropdown</a>
+            <div class="drop-content" id="drop1">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" id="btn2">Languages</a>
+            <div class="drop-content" id="drop2">
+                <a href="#">HTML</a>
+                <a href="#">CSS</a>
+                <a href="#">Javascript</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="row">
+        
+
+        <div class="container">
+            
+            <div class="slide">
+                <img src="pexels-asad-photo-maldives-3293148.jpg">
+            </div>
+            <div class="slide">
+                <img src="pexels-frans-van-heerden-624015.jpg">
+            </div>
+            <div class="slide">
+                <img src="pexels-jeremy-bishop-2422915.jpg">
+            </div>
+            <div class="slide">
+                <img src="pexels-stein-egil-liland-3408744.jpg">
+            </div>
+            <div class="slide">
+                <img src="pexels-vasanth-babu-797797.jpg">
+            </div>
+            
+        </div>
+        <div class="slide-control">
+            <button class="prevBtn"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="nextBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </main>
+
+    <button class="float-btn">+</button>
+    <div class="float-menu">
+        <a href="#"><i class="fa-solid fa-house"></i></a>
+        <a href="#"><i class="fa-solid fa-newspaper"></i></a>
+        <a href="#"><i class="fa-solid fa-address-card"></i></a>
+        <a href="#"><i class="fa-solid fa-address-book"></i></a>
+    </div>
+
+</body>
+</html>
